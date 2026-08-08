@@ -20,16 +20,24 @@ The goal is to keep useful external projects easy to find without mixing third-p
 - **Category:** AI model/provider router and compatibility proxy
 - **Status:** Under evaluation
 - **Why we saved it:** It overlaps strongly with the model-routing and AI-egress layer planned for Olympus. It can route Claude Code/Codex-style traffic to multiple backends, including local models and cloud providers.
-- **Potential Olympus value:**
-  - Provider abstraction
-  - Local-model routing
-  - OpenAI/Anthropic-compatible proxying
-  - Model/provider switching
-  - Controlled fallback patterns
-  - Admin/configuration interface concepts
-  - Cost-control opportunities by routing routine work to local or lower-cost models
+- **Potential Olympus value:** provider abstraction, local-model routing, model/provider switching, controlled fallbacks, admin/configuration concepts, and cost-control opportunities.
 - **Important note:** This does not make paid models cheaper by itself. Savings come from routing work to lower-cost or local models when appropriate.
 - **Adoption decision:** Do not integrate directly into Olympus until architecture, security, fallback behavior, licensing, and cost controls have been reviewed.
+
+### Unreal Engine / Daedalus
+
+- **Primary MCP:** https://github.com/gimmeDG/UnrealEngine5-mcp
+- **Agent field manual:** https://github.com/ibrews/ue5-mcp
+- **Category:** Unreal Engine agent tooling and knowledge
+- **Status:** Under evaluation
+- **Notes:** See `references/unreal-daedalus.md`.
+
+### DaVinci Resolve Agent
+
+- **Primary MCP:** https://github.com/lordhoell/davinci-resolve-mcp
+- **Category:** AI-driven video editing / Resolve automation
+- **Status:** Under evaluation
+- **Notes:** See `references/davinci-resolve-agent.md`.
 
 ## Suggested evaluation record for future repos
 
