@@ -39,6 +39,16 @@ The goal is to keep useful external projects easy to find without mixing third-p
 - **Status:** Under evaluation
 - **Notes:** See `references/davinci-resolve-agent.md`.
 
+### VoxCPM2
+
+- **Upstream:** https://github.com/OpenBMB/VoxCPM
+- **Category:** Local/open-source text-to-speech and voice cloning
+- **License:** Apache-2.0
+- **Status:** High-priority prototype candidate
+- **Why we saved it:** Tokenizer-free TTS with controllable and high-fidelity voice cloning, 48 kHz output, multilingual support, local inference, and production-serving options. Potential replacement or fallback for recurring commercial TTS workloads.
+- **Potential Olympus value:** Hestia voice, Patrol Playback narration, Daily Operations narration, PM Videos, batch voice generation, and a provider-independent internal voice service.
+- **Notes:** See `references/voxcpm2.md`.
+
 ## Suggested evaluation record for future repos
 
 For every new reference project, add:
