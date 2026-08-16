@@ -49,6 +49,17 @@ The goal is to keep useful external projects easy to find without mixing third-p
 - **Potential Olympus value:** Hestia voice, Patrol Playback narration, Daily Operations narration, PM Videos, batch voice generation, and a provider-independent internal voice service.
 - **Notes:** See `references/voxcpm2.md`.
 
+### ECC
+
+- **Upstream:** https://github.com/affaan-m/ECC
+- **Category:** Agent harness, persistent memory, session continuity, continuous learning, and engineering workflow
+- **License:** MIT
+- **Status:** Backlog — high-value memory/continuity investigation
+- **Why we saved it:** ECC has session summaries, memory, continuous learning, reusable instincts/skills, hooks, rules, verification, and supported Codex workflows. The immediate Olympus interest is its memory/continuity machinery rather than importing the entire harness.
+- **Potential Olympus value:** shared durable memory across Codex, Hestia, Zeus/workers, project state, decisions, corrections, failed approaches, and restart/session recovery.
+- **Important note:** ECC overlaps with Olympus orchestration and agent roles. Evaluate memory components in a sandbox and do not install the whole framework into live Olympus just to gain memory.
+- **Notes:** See `references/ecc-memory-continuity.md`.
+
 ## Suggested evaluation record for future repos
 
 For every new reference project, add:
