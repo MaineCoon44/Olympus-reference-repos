@@ -14,6 +14,25 @@ The goal is to keep useful external projects easy to find without mixing third-p
 
 ## Reference Projects
 
+### Reia — Operation Nimbus
+
+- **Upstream:** https://github.com/Quaint-Studios/Reia
+- **Category:** Godot 4 open-source RPG/MMO foundation
+- **License:** AGPL-3.0
+- **Status:** Lead foundation candidate for Operation Nimbus / Cloud Fortress
+- **Why we saved it:** Strong architectural overlap with Nimbus, including player-owned floating islands, island customization, trainable NPCs, procedural open worlds, economies, raids, PvP, offline/online play, private servers, and mods.
+- **Important note:** Reia's AGPL-3.0 license requires careful review before commercial integration.
+- **Notes:** See `references/reia.md`.
+
+### Sustenet — Operation Nimbus Networking
+
+- **Upstream:** https://github.com/Quaint-Studios/Sustenet
+- **Category:** Scalable multiplayer / MMO networking
+- **License:** MIT
+- **Status:** High-priority Nimbus networking candidate
+- **Why we saved it:** Designed alongside Reia and focused on scaling multiplayer across multiple cooperating servers; potentially useful for Nimbus sky regions, world-server separation, and persistent MMO networking.
+- **Notes:** See `references/sustenet.md`.
+
 ### Free Claude Code
 
 - **Upstream:** https://github.com/Alishahryar1/free-claude-code
